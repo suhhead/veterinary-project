@@ -20,10 +20,11 @@
         text-align: justify;
     }
     .service-video-2 {
-        width: 180px;
+        /* width: 180px;
         height: 150px;
         left: -12px;
-        bottom: -17px;
+        bottom: -17px; */
+        display: none;
        
     }
     .service-video {
@@ -53,8 +54,10 @@
         text-align: left;
     }
     .other-service-video-2 {
-        right: -15px;
-        bottom: -28px;
+        /* right: -15px;
+        bottom: -28px; */
+        display:none;
+
     }
     .my-links{
         justify-content: space-between;

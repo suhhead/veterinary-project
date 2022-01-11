@@ -114,7 +114,12 @@
 @media screen and (max-width:600px){
     .header-info h1 {  
         font-size: 40px;
-        text-align: center;
+        text-align: left;
+    }
+    .header-btn{
+        display: flex;
+        flex-direction: column; 
+
     }
     .header-info p {
         font-size:20px;
@@ -132,4 +137,18 @@
         margin-top: 20px;
     }
   
+}
+@media screen and (max-width:400px){
+    .btn {
+        
+        width: 50%;
+        margin-top: 15px;
+        margin-left: 22px;
+    }
+    .counter-card span, .counter-card h4 {
+
+        font-size: 20px;
+
+    }
+
 }

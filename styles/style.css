@@ -1,0 +1,317 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+/* body{
+    ov
+} */
+h1{
+    font-size: 65px;
+    font-weight: 600;
+    
+}
+h2{
+    font-size: 50px;
+    font-weight: 600;
+} 
+h3{
+    font-size: 75px;
+}
+h4{
+    font-size: 45px;
+    font-weight: 700;
+    color: #fff;
+    margin: 10px 0px;
+}
+h5{
+    font-size: 38px;
+    font-weight: 500;
+}
+section{
+    padding: 120px 0px;
+}
+p{
+    margin: 15px 0px;
+    font-size: 30px;
+    font-weight: 400;
+}
+span{
+    font-size: 20px;
+    font-weight: 500;
+}
+.btn{
+    padding: 10px 30px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #fff;
+    text-transform: capitalize;
+    transition: .5s;
+
+}
+.btn-hero-2{
+   background-color: #00bec9;
+   color:#fff ;
+   border-radius: 25px;
+}
+.my-links a{
+   font-size: 35px;
+   background-color: #fcc302;
+   width: 50px;
+   border-radius: 50%;
+   transition:transform .5s linear;
+}
+.my-links a:hover{
+ transform:rotate(180deg);
+ background-color: green;
+ color: #fff;
+}
+.heading-title{
+    margin-bottom: 50px;
+    color:#fff;
+    text-align: center;
+}
+.heading-title h3{
+    text-transform: uppercase;
+    font-weight: 700;
+    
+}
+.heading-title p{
+    width: 50%;
+    margin: 0 auto;
+}
+/* =========================
+     Start Header Section 
+      ============================*/
+#header{
+    background:#fcc302;
+    position: relative;
+    
+
+}
+.menu{
+    background-color: #daac00;
+    padding: 20px 0px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 99999;
+}
+.navbar-light .navbar-nav .nav-link{
+    
+    font-size: 30px;
+    color: #fff;
+    margin-left: 20px;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+.top-btn input{
+    border: transparent;
+    outline: transparent;
+    padding: 20px;
+    font-size: 20px;
+    color: #fff;
+    background-color: #fcc302;
+}
+.top-btn input:focus{
+    color: #fff;
+    background-color: #daac00;
+    outline: none;
+    box-shadow: none;
+    border: 2px solid #fff;
+
+}
+.top-btn input::placeholder{
+    color: #fff;
+    
+}
+.header-info h1{
+    margin-top: 200px;
+    font-size: 65px;
+    font-weight: 600;
+    color: #fff;
+
+}
+.header-info p{
+    font-size: 30px;
+    color: #fff;
+    text-transform: capitalize;
+    margin: 20px 0px;
+}
+
+.hero-btn-1{
+  border: none;  
+}
+.btn:hover{
+   background-color: #fff;
+   color: #000;
+}
+
+.header-img{
+    margin-top:90px ;
+}
+/*================================
+
+ Header Section  Ends Here
+
+ =================================== */
+
+ .service-video{
+     height:480px ;
+     position: relative;
+     z-index: 9999;
+     
+ }
+ .service-video::before{
+     content: '';
+     position: absolute;
+     top: 0;
+     left: 0;
+     width: 100%;
+     height: 100%;
+     background-image: linear-gradient(rgba(252, 194, 2, 0.431) ,rgba(252, 194, 2, 0.431));
+     border-radius: 10px;
+ }
+ .service-video img{
+     width: 100%;
+     height: 100%;
+     border-radius: 10px;
+ }
+ .play-icon{
+     position:absolute;
+     top:50%;
+     left:50%;
+     transform: translate(-50% , -50%);
+ }
+ .play-icon i{
+     font-size: 60px;
+     color: #fff;
+     transition: .5s;
+    
+ }
+ .play-icon i:hover{
+     color: #fcc302;
+ }
+ .service-video-2{
+     width: 250px;
+     height: 200px;
+     position: absolute;
+     background-color: #fcc302;
+     left: -25px;
+     bottom: -35px;
+     z-index: 9;
+ }
+ .other-service-video-2{
+    width: 250px;
+    height: 200px;
+    position: absolute;
+    background-color: #fcc302;
+    right: -25px;
+    bottom: -35px;
+    z-index: 9;
+ }
+/* =======================
+    End Service Section
+    =========================== */
+#facilites{
+    background-color: #fcc302;
+}
+
+.card{
+   border: transparent;
+   background:none;
+   
+}
+/* =======================
+    End Facilites Section
+      =========================== */
+#mycounter{
+    background-image: linear-gradient(#fcc20296,#fcc202a6),url(../images/dog-9.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.counter-card{
+   color: #fff;
+   
+}
+.counter-card i{
+    font-size: 70px;
+}
+.counter-card span,.counter-card h4{
+    font-size: 60px;
+    font-weight: 700;
+    margin: 10px 0px;
+}
+/* =======================
+    End Counter Section
+      =========================== */
+
+.treatment-body h5{
+    font-size: 28px;
+    font-weight: 600;
+}
+.treatment-body p{
+    font-size: 18px;
+    color: lightslategray;
+}
+.treatment-body a{
+    font-size: 20px;
+    font-weight: 600;
+     text-transform:capitalize;
+}
+/* =======================
+    End Recent Work Section
+      =========================== */
+#footer{
+    padding: 160px 0px;
+    background-color: #343434;
+    color: #fff;
+}
+.our-list ul li{
+    list-style-type: none;
+    margin-top: 7px;
+   
+}
+.our-list h6{
+    font-size: 30px;
+    font-weight: 600;
+    margin-left: 32px;
+    margin-bottom: 10px;
+}
+.our-list ul li a{
+    font-size: 18px;
+    font-weight: 500;
+    color: #fff;
+}
+.join h6{
+   font-size: 35px;
+   font-weight: 600;
+}
+.join p{
+    font-size:16px;
+    font-weight: 400;  
+}
+.top-btn-2 input{
+  
+  padding: 30px 20px;
+  font-size: 24px;
+  border-radius: 5px;
+ 
+}
+.footer-social-link{
+    margin-top: 50px;
+    
+}
+.footer-social-link a{
+    font-size: 40px;
+    color:#343434 ;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color:#fff ;
+    text-align: center;
+    transition: transform .5s linear;
+    
+}
+.footer-social-link a:hover{
+   transform: scale(1.2);
+   background-color: green;
+   color: #fff;
+}

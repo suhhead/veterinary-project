@@ -20,10 +20,11 @@
         text-align: justify;
     }
     .service-video-2 {
-        width: 180px;
+        /* width: 180px;
         height: 150px;
         left: -12px;
-        bottom: -17px;
+        bottom: -17px; */
+        display: none;
        
     }
     .service-video {
@@ -53,8 +54,10 @@
         text-align: left;
     }
     .other-service-video-2 {
-        right: -15px;
-        bottom: -28px;
+        /* right: -15px;
+        bottom: -28px; */
+        display:none;
+
     }
     .my-links{
         justify-content: space-between;
@@ -114,7 +117,12 @@
 @media screen and (max-width:600px){
     .header-info h1 {  
         font-size: 40px;
-        text-align: center;
+        text-align: left;
+    }
+    .header-btn{
+        display: flex;
+        flex-direction: column; 
+
     }
     .header-info p {
         font-size:20px;
@@ -132,4 +140,18 @@
         margin-top: 20px;
     }
   
+}
+@media screen and (max-width:400px){
+    .btn {
+        
+        width: 50%;
+        margin-top: 15px;
+        margin-left: 22px;
+    }
+    .counter-card span, .counter-card h4 {
+
+        font-size: 20px;
+
+    }
+
 }

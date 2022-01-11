@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
-/* body{
-    ov
-} */
+body{
+    overflow-x: hidden;
+}
 h1{
     font-size: 65px;
     font-weight: 600;
@@ -58,9 +58,9 @@ span{
    transition:transform .5s linear;
 }
 .my-links a:hover{
- transform:rotate(180deg);
- background-color: green;
- color: #fff;
+    transform:rotate(180deg);
+    background-color: green;
+    color: #fff;
 }
 .heading-title{
     margin-bottom: 50px;
